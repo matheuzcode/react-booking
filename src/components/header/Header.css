@@ -12,6 +12,10 @@
 	margin: 20px 0px 100px 0px;
 }
 
+.headerContainer.listMode{
+	margin: 20px 0px 0px 0px;
+}
+
 .headerList{
 	display: flex;
 	gap: 40px;
@@ -81,17 +85,22 @@
 .date{
 	position: absolute;
 	top: 50px;
+	box-shadow: -1px 3px 12px 3px rgba(0,0,0,0.15);
+	-webkit-box-shadow: -1px 3px 12px 3px rgba(0,0,0,0.15);
+	-moz-box-shadow: -1px 3px 12px 3px rgba(0,0,0,0.15);
+	z-index: 2;
 }
 
 .options{
+	z-index: 2;
 	position: absolute;
 	top: 50px;
 	background-color: white;
 	color: gray;
 	border-radius: 5px;
-	-webkit-box-shadow: -4px 6px 20px -15px rgba(0,0,0,0.75);
-	-moz-box-shadow: -4px 6px 20px -15px rgba(0,0,0,0.75);
-	box-shadow: -4px 6px 20px -15px rgba(0,0,0,0.75);
+	box-shadow: -1px 3px 12px 3px rgba(0,0,0,0.15);
+	-webkit-box-shadow: -1px 3px 12px 3px rgba(0,0,0,0.15);
+	-moz-box-shadow: -1px 3px 12px 3px rgba(0,0,0,0.15);
 }
 
 .optionItem{
@@ -117,4 +126,8 @@
 	color: #0071c2;
 	cursor: pointer;
 	background-color: white;
+}
+
+.optionCounterButton:disabled{
+	cursor: not-allowed;
 }
