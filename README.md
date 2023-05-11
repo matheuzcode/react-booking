@@ -7,9 +7,13 @@
 <div>
   <img src="https://github.com/matheuzcode/react-booking/assets/98724767/03a476ac-c24c-4092-aaba-f6d1c1d02c4d" />
 </div>
-</br>
+<hr/>
 <div>
-  <img src="https://github.com/matheuzcode/react-booking/assets/98724767/a85c8796-4e5d-472e-8a49-9af32ee2b90a" />
+  <img src="https://github.com/matheuzcode/react-booking/assets/98724767/0857fa2e-5b3d-4b8c-bc44-5f688a7cb6be" />
+</div>
+<hr/>
+<div>
+  <img src="https://github.com/matheuzcode/react-booking/assets/98724767/878b1f80-4d80-41f0-b305-25b5a1b8d5b9" />
 </div>
 
 # How to acess the project 📁
