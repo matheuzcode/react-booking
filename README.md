@@ -4,6 +4,8 @@
 
 # Booking
 
+Um site moderno e seguro desenvolvido com JavaScript, Node.js, Context API e JWT para oferecer aos usuários uma experiência intuitiva de reserva de hotéis. Utilizando tecnologias avançadas como Hooks com Context API e JWT para autenticação de login, o site proporciona uma interface interativa e eficiente, permitindo aos usuários encontrar e reservar acomodações de forma fácil e segura.
+
 <div>
   <img src="https://github.com/matheuzcode/react-booking/assets/98724767/03a476ac-c24c-4092-aaba-f6d1c1d02c4d" />
 </div>
