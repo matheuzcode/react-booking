@@ -7,11 +7,11 @@
 Um site moderno e seguro desenvolvido com JavaScript, NodeJS, Context API e JWT para oferecer aos usuários uma experiência intuitiva de reserva de hotéis. Utilizando tecnologias avançadas como Hooks com Context API e JWT para autenticação de login, o site proporciona uma interface interativa e eficiente, permitindo aos usuários encontrar e reservar acomodações de forma fácil e segura.
 
 <div>
-  <img src="https://github.com/matheuzcode/react-booking/assets/98724767/03a476ac-c24c-4092-aaba-f6d1c1d02c4d" />
+  <img src="https://github.com/matheuzcode/react-booking/assets/98724767/f5e2da72-9572-4b92-9aa8-db97b29721e5" />
 </div>
 <hr/>
 <div>
-  <img src="https://github.com/matheuzcode/react-booking/assets/98724767/0857fa2e-5b3d-4b8c-bc44-5f688a7cb6be" />
+  <img src="https://github.com/matheuzcode/react-booking/assets/98724767/08b6ac51-0ce9-4110-8e8e-c191d994fd92" />
 </div>
 <hr/>
 <div>
