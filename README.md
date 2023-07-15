@@ -2,7 +2,7 @@
     :construction:  Projeto em construção  :construction:
 </h1>
 
-# Booking
+# HotelFinder
 
 Um site moderno e seguro desenvolvido com JavaScript, NodeJS, Context API e JWT para oferecer aos usuários uma experiência intuitiva de reserva de hotéis. Utilizando tecnologias avançadas como Hooks com Context API e JWT para autenticação de login, o site proporciona uma interface interativa e eficiente, permitindo aos usuários encontrar e reservar acomodações de forma fácil e segura.
 
