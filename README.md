@@ -4,7 +4,8 @@
 
 # HotelFinder
 
-Um site moderno e seguro desenvolvido com JavaScript, NodeJS, Context API e JWT para oferecer aos usuários uma experiência intuitiva de reserva de hotéis. Utilizando tecnologias avançadas como Hooks com Context API e JWT para autenticação de login, o site proporciona uma interface interativa e eficiente, permitindo aos usuários encontrar e reservar acomodações de forma fácil e segura.
+O projeto é um site de reserva de hotéis desenvolvido utilizando a tecnologia React. Oferece aos usuários uma interface intuitiva para pesquisar, comparar e reservar quartos de hotel. O site exibe informações detalhadas sobre cada hotel, como fotos, descrições, comodidades e avaliações de outros hóspedes. Além disso, conta com um sistema de filtragem avançado para refinar as opções de busca de acordo com as preferências do usuário, como preço, localização e classificação. </br>
+Tecnologias:  HTML, CSS, JavaScript, React.
 
 <div>
   <img src="https://github.com/matheuzcode/react-booking/assets/98724767/f5e2da72-9572-4b92-9aa8-db97b29721e5" />
