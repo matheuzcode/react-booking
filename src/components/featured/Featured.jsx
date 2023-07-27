@@ -35,7 +35,19 @@ const Featured = () => {
 					/>
 					<div className="featuredTitles">
 						<h1>Austin</h1>
-						<h2>532 properties</h2>
+						<h2>325 properties</h2>
+					</div>
+				</div>
+
+				<div className="featuredItem">
+					<img
+						src="https://i.ibb.co/tcVR2PQ/pexels-vish-pix-16347761-1.jpg"
+						alt=""
+						className="featuredImg"
+					/>
+					<div className="featuredTitles">
+						<h1>Genebra</h1>
+						<h2>100 properties</h2>
 					</div>
 				</div>
 		</div>

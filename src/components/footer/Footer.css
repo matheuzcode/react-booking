@@ -21,3 +21,17 @@
   color: #003580;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1024px){
+  .footer {width: 800px;}
+}
+
+@media screen and (max-width: 830px){
+  .fLists {display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px}
+  .footer{width: 600px; }
+}
+
+
+
+
+    

@@ -1,15 +1,31 @@
 .header{
-	background-color: #003580;
+	background-image: url(./assets/header-background.jpg);
 	color: white;
 	display: flex;
 	justify-content: center;
 	position: relative;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -250px;
+    background-position: center;
+}
+
+.header::after{
+	content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #005cdd96;
+        opacity: 1;
 }
 
 .headerContainer{
 	width: 100%;
-	max-width: 1024px;
 	margin: 20px 0px 100px 0px;
+	max-width: 1024px;
+	z-index: 1;
 }
 
 .headerContainer.listMode{
@@ -45,21 +61,61 @@
 	border: none;
 	padding: 10px;
 	cursor: pointer;
+	transition: all ease 0.5s;
+}
+
+.headerBtn:hover{
+	background-color: #014994;
+	
+}
+
+.headerSearchSmall{
+	text-align: center;
+    background-color: #005dac;
+    margin: auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: 600;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -23px;
+    max-width: 300px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    display: flex;
+}
+
+.headerSearchSmall:hover{
+	background-color: #014994;
 }
 
 .headerSearch{
-	height: 30px;
-	background-color: white;
-	border: 3px solid #febb02;
 	display: flex;
+	background-color: white;
 	align-items: center;
 	justify-content: space-around;
 	padding: 10px 0px;
-	border-radius: 5px;
 	position: absolute;
 	bottom: -25px;
 	width: 100%;
 	max-width: 1024px;
+	left: 0;
+    margin: auto;
+    right: 0;
+    box-shadow: 0px 4px 6px 0px #d7d7d7;
+}
+
+.dateBackground{
+	width: 100%;
+    position: absolute;
+    height: 100vh;
+    background-color: #ff11da00;
+    z-index: 1;
 }
 
 .headerIcon{
@@ -70,6 +126,7 @@
 	display: flex;
 	align-items: center;
 	gap: 10px;
+
 }
 
 .headerSearchInput{
@@ -131,3 +188,35 @@
 .optionCounterButton:disabled{
 	cursor: not-allowed;
 }
+
+
+@media screen and (max-width: 1024px){
+	.headerSearch {max-width: 800px; left: 0px; right: 0; margin: auto}
+	.headerContainer {max-width: 800px;}
+}
+
+@media screen and (max-width: 830px){
+	.headerSearch {
+	display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+    position: absolute;
+    width: auto;
+    padding: 41px;
+    max-width: 366px;
+    left: -1280px;
+    right: 0;
+    margin: auto;
+    box-shadow: 0px 4px 6px 0px #d7d7d7;
+    transition: left 0.2s ease;
+	}
+	
+	.headerContainer {max-width: 600px;}
+	.headerSearchText{font-size: 13px;}
+	.headerList{gap: 15px;}
+	.rdrCalendarWrapper{font-size: 10px; top: 136px; left: 38px;}
+	.options{top: 192px; font-size: 16px;}
+	.headerSearchItem{border-bottom: solid 3px #94c4f1; padding-bottom: 8px; width: 100%;}
+}
+
